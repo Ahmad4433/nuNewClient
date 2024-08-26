@@ -1,0 +1,79 @@
+.register_main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.register_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.auth_bg {
+  background: url("../../assets/bg-auth.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.register_terms_container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.register_terms_container span {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.register_terms_container a {
+  color: var(--clrprimary);
+}
+
+.register_options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 100%;
+  gap: 0.6rem;
+}
+
+.register_options a {
+  color: var(--clrprimary);
+}
+
+.term_login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.term_login div {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.register_header {
+  padding-bottom: 2rem;
+}
+
+.auth_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.auth_logo img{
+  height: 60px;
+
+}

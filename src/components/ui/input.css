@@ -1,0 +1,9 @@
+.ui_input {
+  padding: 0.8rem;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.ui_input:focus {
+  border: 1px solid var(--clrprimary);
+}
