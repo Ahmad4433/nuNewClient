@@ -67,13 +67,18 @@
   padding-bottom: 2rem;
 }
 
-.auth_logo{
+.auth_logo {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
 }
-.auth_logo img{
+.auth_logo img {
   height: 60px;
+}
 
+@media (max-width: 1366px) {
+  .register_main {
+    width: 70%;
+  }
 }
