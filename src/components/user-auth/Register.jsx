@@ -61,7 +61,7 @@ const Register = () => {
   };
 
   return (
-    <div>
+    <div className="register_section" >
       <div className="auth_logo">
         <img src={logo} />
       </div>

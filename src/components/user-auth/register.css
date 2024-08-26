@@ -1,9 +1,13 @@
+.register_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .register_main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
+    width: 60%;
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 6px;
@@ -73,6 +77,7 @@
   justify-content: center;
   padding-top: 2rem;
 }
+
 .auth_logo img {
   height: 60px;
 }
